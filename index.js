@@ -1,11 +1,11 @@
-const express = require("express");
-const app = express();
-app.set('view engine', 'ejs');
-// app.get("/", (req, res) => res.send("Express on Vercel"));
-app.get("/", (req, res) => {
-    res.render('login')
-});
+// const express = require("express");
+// const app = express();
+// app.set('view engine', 'ejs');
+// // app.get("/", (req, res) => res.send("Express on Vercel"));
+// app.get("/", (req, res) => {
+//     res.render('login')
+// });
 
-app.listen(3002, () => console.log("Server ready on port 3002."));
+// app.listen(3002, () => console.log("Server ready on port 3002."));
 
-module.exports = app;
+// module.exports = app;
